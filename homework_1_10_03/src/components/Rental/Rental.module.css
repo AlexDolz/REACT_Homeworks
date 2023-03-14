@@ -12,7 +12,7 @@
 .rental > div > p:first-child {
   font-style: italic;
   font-weight: 400;
-  font-size: 36px;
+  font-size: calc(26px + 10 * (100vw / 1440));
   line-height: 28px;
   letter-spacing: -0.006em;
   color: #22356f;
@@ -24,15 +24,13 @@
   min-height: 215px;
   font-style: italic;
   font-weight: 400;
-  font-size: 36px;
+  font-size: calc(26px + 10 * (100vw / 1440));
   line-height: 53px;
   letter-spacing: -0.01em;
   color: #22356f;
 }
 .rental img {
   max-width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 @media (max-width: 946px) {
@@ -47,5 +45,8 @@
   }
   .rental > div > p:last-child {
     font-size: calc(26px + (10 + 10 * 0.7) * ((100vw - 320px) / 1440));
+  }
+  .rental img {
+    max-height: 800px;
   }
 }

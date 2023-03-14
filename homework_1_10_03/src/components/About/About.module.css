@@ -12,7 +12,7 @@
   min-height: 243.46px;
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
+  font-size: calc(18px + 6 * (100vw / 1440));
   line-height: 34px;
   letter-spacing: 0.005em;
   color: #22356f;
@@ -22,7 +22,7 @@
   margin-bottom: 35px;
 }
 
-@media (max-width: 946px) {
+@media (max-width: 800px) {
   .about > div {
     padding: calc(20px + (179 - 20) * ((100vw -320px) / (1440 - 320)));
     font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));

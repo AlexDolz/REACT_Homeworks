@@ -3,7 +3,7 @@
   min-height: 480px;
   font-weight: 400;
   font-style: italic;
-  font-size: 32px;
+  font-size: calc(28px + 4 * (100vw / 1440));
   line-height: 34px;
   letter-spacing: -0.006em;
   color: #ffffff;
@@ -20,7 +20,7 @@
   padding-left: 70px;
 }
 
-@media (max-width: 946px) {
+@media (max-width: 800px) {
   .services__item__line {
     max-width: none;
     margin-left: 0;

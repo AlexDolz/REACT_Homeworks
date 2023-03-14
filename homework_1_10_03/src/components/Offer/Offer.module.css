@@ -15,7 +15,7 @@
   min-height: 51px;
   font-style: italic;
   font-weight: 400;
-  font-size: 36px;
+  font-size: calc(20px + 16 * (100vw / 1440));
   line-height: 28px;
   letter-spacing: -0.006em;
   color: #ffffff;
@@ -27,7 +27,7 @@
   min-height: 270px;
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
+  font-size: calc(18px + 6 * (100vw / 1440));
   line-height: 35px;
   text-align: justify;
   color: #ffffff;
@@ -39,6 +39,12 @@
 }
 
 @media (max-width: 946px) {
+  .offer > div:first-child {
+    padding: 100px 60px 80px 100px;
+  }
+}
+
+@media (max-width: 800px) {
   .offer {
     flex-direction: column;
   }
