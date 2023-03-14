@@ -1,0 +1,31 @@
+.rental {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  background: #ffffff;
+}
+
+.rental > div {
+  padding: 242px 0 0 67px;
+}
+
+.rental > div > p:first-child {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+  color: #22356f;
+  margin-bottom: 49px;
+}
+
+.rental > div > p:last-child {
+  width: 676px;
+  height: 215px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  color: #22356f;
+}

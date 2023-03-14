@@ -2,6 +2,8 @@ import About from '../About/About';
 import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
 import Offer from '../Offer/Offer';
+import Rental from '../Rental/Rental';
+import ServicesList from '../ServicesList/ServicesList';
 import './App.css';
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Offer />
       <About />
+      <ServicesList />
+      <Rental />
     </div>
   );
 }

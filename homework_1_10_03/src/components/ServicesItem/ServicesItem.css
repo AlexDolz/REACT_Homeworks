@@ -1,0 +1,21 @@
+.services__item {
+  width: 480px;
+  height: 480px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+.services__item__line {
+  max-width: 340px;
+  height: 96px;
+  box-shadow: inset 0px -1px 0px #ffffff;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+
+.services__item p {
+  padding-left: 70px;
+}
