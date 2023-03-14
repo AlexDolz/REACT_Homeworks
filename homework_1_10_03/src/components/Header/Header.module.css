@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 704px;
+  min-height: 704px;
   background: #f4f9e2;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 .header h1 {
   max-width: 610px;
-  height: 90px;
+  min-height: 90px;
   font-style: italic;
   font-size: 48px;
   font-weight: 400;
@@ -22,24 +22,29 @@
 }
 .header p {
   max-width: 576px;
-  height: 277px;
+  min-height: 277px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 43px;
   color: #22356f;
 }
+.header img {
+  max-width: 100%;
+}
 
-/* @media (max-width: 767px) {
+@media (max-width: 946px) {
+  .header {
+    flex-direction: column;
+  }
   .header h1 {
     font-size: calc(24px + (24 + 24 * 0.7) * ((100vw - 320px) / 1440));
     width: 92vw;
   }
   .header > div:first-child {
-    padding-left: calc(20px + (179 - 20) * ((100vw - 320px) / (1440 - 320)));
+    padding: calc(20px + (179 - 20) * ((100vw - 320px) / (1440 - 320)));
   }
   .header p {
     font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));
-    width: 90vw;
   }
-} */
+}

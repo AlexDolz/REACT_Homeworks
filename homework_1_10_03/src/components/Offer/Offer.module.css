@@ -1,6 +1,6 @@
 .offer {
   width: 100%;
-  height: 604px;
+  min-height: 604px;
   display: flex;
   justify-content: space-between;
   background: #62d0df;
@@ -9,9 +9,10 @@
 .offer > div:first-child {
   padding: 131px 160px 128px 171px;
 }
+
 .offer h2 {
   max-width: 361px;
-  max-height: 51px;
+  min-height: 51px;
   font-style: italic;
   font-weight: 400;
   font-size: 36px;
@@ -23,11 +24,37 @@
 
 .offer p {
   max-width: 586px;
-  height: 270px;
+  min-height: 270px;
   font-style: italic;
   font-weight: 400;
   font-size: 24px;
   line-height: 35px;
   text-align: justify;
   color: #ffffff;
+}
+.offer img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 946px) {
+  .offer {
+    flex-direction: column;
+  }
+  .offer h2 {
+    font-size: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
+  }
+  .offer p {
+    font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));
+  }
+  .offer > div:first-child {
+    padding: calc(20px + (171 - 20) * ((100vw - 320px) / (1440 - 320)));
+  }
+  .offer > div:last-child {
+    height: 500px;
+  }
+  .offer img {
+    width: 100%;
+  }
 }

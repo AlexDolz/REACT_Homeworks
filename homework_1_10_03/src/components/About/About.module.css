@@ -1,13 +1,15 @@
 .about {
   width: 100%;
-  height: 633px;
+  min-height: 633px;
   background: #ffffff;
-  padding: 252px 304px 138px 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about > div {
-  width: 739px;
-  height: 243.46px;
+  max-width: 739px;
+  min-height: 243.46px;
   font-style: italic;
   font-weight: 400;
   font-size: 24px;
@@ -18,4 +20,11 @@
 
 .about p:first-child {
   margin-bottom: 35px;
+}
+
+@media (max-width: 946px) {
+  .about > div {
+    padding: calc(20px + (179 - 20) * ((100vw -320px) / (1440 - 320)));
+    font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));
+  }
 }

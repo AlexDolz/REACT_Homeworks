@@ -1,6 +1,6 @@
 .services__item {
-  width: 480px;
-  height: 480px;
+  width: 100%;
+  min-height: 480px;
   font-weight: 400;
   font-style: italic;
   font-size: 32px;
@@ -18,4 +18,17 @@
 
 .services__item p {
   padding-left: 70px;
+}
+
+@media (max-width: 946px) {
+  .services__item__line {
+    max-width: none;
+    margin-left: 0;
+  }
+  .services__item p {
+    padding: calc(20px + (179 - 20) * ((100vw - 320px) / (1440 - 320)));
+  }
+  .service__item {
+    font-size: calc(28px + (4 + 4 * 0.7) * ((100vw - 320px) / 1440));
+  }
 }
