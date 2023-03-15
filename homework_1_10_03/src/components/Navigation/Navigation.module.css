@@ -46,6 +46,7 @@
   .nav {
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 25px;
   }
   .nav li {
     font-size: 17px;
