@@ -4,10 +4,9 @@
   background: #f4f9e2;
   display: flex;
   align-items: center;
-  gap: 25px;
 }
 .header > div:first-child {
-  padding-left: 179px;
+  padding: 0 35px 0 179px;
 }
 .header h1 {
   max-width: 610px;
@@ -39,11 +38,9 @@
   }
   .header h1 {
     font-size: calc(24px + (24 + 24 * 0.7) * ((100vw - 320px) / 1440));
-    width: 92vw;
   }
   .header > div:first-child {
-    padding-left: calc(20px + (179 - 20) * ((100vw - 320px) / (1440 - 320)));
-    margin-right: 15px;
+    padding: calc(20px + (179 - 20) * ((100vw - 320px) / (1440 - 320)));
   }
   .header p {
     font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));

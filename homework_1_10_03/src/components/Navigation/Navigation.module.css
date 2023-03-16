@@ -51,4 +51,7 @@
   .nav li {
     font-size: 17px;
   }
+  .nav img {
+    margin-left: 0;
+  }
 }
