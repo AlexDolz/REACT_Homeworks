@@ -4,4 +4,4 @@
 
 # Desktop <-> Mobile
 
-![React-app ThriveTalk landing page - Google Chrome ](https://user-images.githubusercontent.com/108806800/225637360-4cb7bf3d-965b-488f-9152-dbe154fcd7ff.png)
+![React-app ThriveTalk landing page - Google Chrome ](https://user-images.githubusercontent.com/108806800/225637829-447fd41c-6b43-4d31-8c7e-68938795c0eb.png)
