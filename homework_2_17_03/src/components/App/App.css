@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: seashell;
+}
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+  padding: 50px;
+  gap: 30px;
+}
+
+.add__product {
+  display: flex;
+  margin: 30px auto;
+  padding: 10px;
+  border-style: none;
+  border: 1px solid cadetblue;
+  background: cadetblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 18px;
+}
+
+.add__product:hover {
+  background: rgba(95, 158, 160, 0.868);
+}
+
+@media (max-width: 1140px) {
+  .app {
+    grid-template-columns: repeat(3, 250px);
+  }
+}
+@media (max-width: 870px) {
+  .app {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+@media (max-width: 600px) {
+  .app {
+    grid-template-columns: repeat(1, 250px);
+  }
+}

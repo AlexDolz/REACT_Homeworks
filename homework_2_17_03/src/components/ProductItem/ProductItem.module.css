@@ -1,0 +1,41 @@
+.product__item {
+  border: 2px solid cadetblue;
+  background: floralwhite;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+.out__of__stock {
+  position: absolute;
+  bottom: 15px;
+}
+.count__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.count__container button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-style: none;
+  border: 1px solid cadetblue;
+  background: cadetblue;
+  color: white;
+  border-radius: 10px;
+  transition: background 0.3s;
+  font-size: 20px;
+}
+
+.count__container button:hover {
+  background: rgba(95, 158, 160, 0.868);
+}
