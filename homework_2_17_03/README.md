@@ -4,4 +4,4 @@
 
 # Desktop <-> Mobile
 
-![homework_2_17_03 - Google Chrome 2023-03-22 17 23](https://user-images.githubusercontent.com/108806800/226985455-3414f1b5-4602-4515-b2e1-bc678db939bf.png)
+![homework_2_17_03 - Google Chrome 2023-03-22 18 18](https://user-images.githubusercontent.com/108806800/226986149-2d036486-1730-4a35-b336-86b3e1626843.png)
