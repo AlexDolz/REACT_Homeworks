@@ -9,16 +9,14 @@ const ProductItem = ({ name, price, count, id, removeProduct }) => {
     border: amount <= 0 ? '2px solid #f35f5f' : '2px solid cadetblue',
     color: amount <= 0 ? 'white' : 'black',
   };
-  const decrement = event => {
-    event.preventDefault();
+  const decrement = () => {
     setAmount(--amount);
     if (amount <= 0) {
       amount = 0;
       setAmount(amount);
     }
   };
-  const increment = event => {
-    event.preventDefault();
+  const increment = () => {
     setAmount(++amount);
   };
 
